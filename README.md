@@ -1,2 +1,2 @@
-# cobol
-COBOL Development
+# COBOL Development
+COBOL Codes
