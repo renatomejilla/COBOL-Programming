@@ -1,3 +1,7 @@
+* Author:         Renato D. Mejilla
+* Date:           June 5, 2024
+* Description:    A demo of date formatting and display.
+      
 IDENTIFICATION DIVISION.
 PROGRAM-ID.     WS-DATE01.
 
