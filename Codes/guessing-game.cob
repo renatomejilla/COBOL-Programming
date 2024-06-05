@@ -1,3 +1,7 @@
+* Author:         Renato D. Mejilla
+* Date:           June 5, 2024
+* Description:    Demo of a guessing game
+      
 IDENTIFICATION DIVISION.
 PROGRAM-ID. GUESSING-GAME.
 DATA DIVISION.
