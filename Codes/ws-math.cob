@@ -56,21 +56,20 @@ STOP RUN.
 ======================================================
 OUTPUT:
       
-Enter a number: 100
-Enter another number: 10
+Enter a number: 74
+Enter another number: 6
  
 Sample of Addition:
-10 + 10 = 020
+74 + 06 = 080
  
 Sample of Subtraction:
-10 - 10 = 000
+74 - 06 = 068
  
 Sample of Multiplication:
-10 * 10 = 100
+74 * 06 = 444
  
 Sample of Division:
-10 / 10 = 001
+74 / 06 = 012 and remainder is  2
  
-The total is 00120
-
+The total is  5340
       
