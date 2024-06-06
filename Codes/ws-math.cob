@@ -1,3 +1,7 @@
+* Author:      Renato D. Mejilla
+* Date:        June 6, 2024
+* Description: A demo for arithmetic computations.
+      
 IDENTIFICATION DIVISION.
 PROGRAM-ID. WS-MATH.
 
@@ -47,3 +51,25 @@ PROCEDURE DIVISION.
     DISPLAY "The total is ", WS-TOT.
     
 STOP RUN.
+
+======================================================
+OUTPUT:
+      
+Enter a number: 100
+Enter another number: 10
+ 
+Sample of Addition:
+10 + 10 = 020
+ 
+Sample of Subtraction:
+10 - 10 = 000
+ 
+Sample of Multiplication:
+10 * 10 = 100
+ 
+Sample of Division:
+10 / 10 = 001
+ 
+The total is 00120
+
+      
