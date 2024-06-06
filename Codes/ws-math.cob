@@ -1,6 +1,6 @@
 * Author:      Renato D. Mejilla
 * Date:        June 6, 2024
-* Description: A demo for arithmetic computations.
+* Description: A demo of arithmetic computations with user input.
       
 IDENTIFICATION DIVISION.
 PROGRAM-ID. WS-MATH.
@@ -15,7 +15,8 @@ DATA DIVISION.
     01 WS-DIV       PIC 9(3).
     01 WS-SUB       PIC 9(3).
     01 WS-MUL       PIC 9(3).
-    01 WS-TOT       PIC 9(5).
+    01 WS-TOT       PIC ZZZZ9.
+    01 WS-REM       PIC Z9.
     
 PROCEDURE DIVISION.
     DISPLAY "Enter a number: " WITH NO ADVANCING.
@@ -27,7 +28,7 @@ PROCEDURE DIVISION.
     COMPUTE WS-ADD = WS-INPUT1 + WS-INPUT2.
     COMPUTE WS-SUB = WS-INPUT1 - WS-INPUT2.
     COMPUTE WS-MUL = WS-INPUT1 * WS-INPUT2.
-    COMPUTE WS-DIV = WS-INPUT1 / WS-INPUT2.
+    DIVIDE WS-INPUT1 BY WS-INPUT2 GIVING WS-DIV REMAINDER WS-REM.
     COMPUTE WS-TOT = ((WS-MUL * WS-DIV) + WS-ADD - WS-SUB)
     
     
@@ -43,11 +44,11 @@ PROCEDURE DIVISION.
     DISPLAY "Sample of Multiplication:".
     DISPLAY WS-INPUT1, ' * ', WS-INPUT2, " = ", WS-MUL.
     DISPLAY " ".
-    
+       
     DISPLAY "Sample of Division:".
-    DISPLAY WS-INPUT1, " / ", WS-INPUT2, " = ", WS-DIV.
+    DISPLAY WS-INPUT1, " / ", WS-INPUT2, " = ", WS-DIV, " and remainder is ", WS-REM.
     DISPLAY " ".
-    
+      
     DISPLAY "The total is ", WS-TOT.
     
 STOP RUN.
