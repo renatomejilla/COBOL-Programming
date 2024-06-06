@@ -1,0 +1,74 @@
+Installing a mainframe operating system emulator on your personal computer can be a great way to learn and practice mainframe skills without access to an 
+actual mainframe. The most commonly used mainframe emulator is Hercules, an open-source project that emulates IBM mainframe hardware. Below are the steps 
+to install and configure Hercules on a Windows 10 PC.
+
+Step 1: Download Hercules Emulator
+Visit the Hercules mainframe emulator website or its GitHub repository.
+Download the latest version of Hercules for Windows. As of now, you can find precompiled binaries or source code if you prefer to build it yourself.
+
+Step 2: Install Hercules
+Extract the Files:
+
+Unzip the downloaded file to a directory of your choice (e.g., C:\Hercules).
+Set Up Environment Variables (Optional but Recommended):
+Add the path to the Hercules executable (hercules.exe) to your system's PATH environment variable for easier access from the command line.
+
+Step 3: Download Mainframe Operating System
+You need to download a legally available mainframe operating system, such as the MVS 3.8J. This is an older version of the IBM mainframe operating system that 
+has been released into the public domain.
+
+Download MVS 3.8J:
+Visit MVS Turnkey System.
+Download the MVS 3.8J Turnkey system archive.
+
+Step 4: Configure Hercules
+Extract MVS 3.8J:
+
+Extract the MVS 3.8J Turnkey system to a directory (e.g., C:\MVS38J).
+Configuration File:
+
+Navigate to the C:\MVS38J directory and locate the Hercules configuration file (hercules.cnf or similar). This file contains the configuration settings for 
+Hercules to emulate the mainframe hardware.
+Make sure the paths in the configuration file point to the correct locations of the MVS files.
+Example hercules.cnf configuration snippet:
+
+# Hercules emulator configuration file for MVS 3.8J
+# Define CPU
+CPUSERIAL 000611
+CPUMODEL 3090
+MAINSIZE 64
+CNSLPORT 3270
+
+# Load MVS 3.8J DASD (Direct Access Storage Device)
+000C 3350 C:\MVS38J\MVSRES.3350
+000D 3350 C:\MVS38J\WORK00.3350
+
+# Other devices
+0E20 3420 C:\MVS38J\MVS.3420
+0E21 3420 C:\MVS38J\TAPE01.3420
+
+Step 5: Start Hercules
+Open Command Prompt:
+
+Open a command prompt and navigate to the Hercules directory (C:\Hercules).
+Run Hercules:
+
+Start Hercules by running the following command:
+hercules -f C:\MVS38J\hercules.cnf
+IPL (Initial Program Load) MVS:
+
+In the Hercules console window, start the MVS operating system by typing the following command:
+ipl 150
+Step 6: Connect to the Mainframe
+3270 Terminal Emulator:
+
+Download and install a 3270 terminal emulator such as x3270 or wc3270.
+Configure and Connect:
+Open the 3270 emulator and connect to localhost on port 3270.
+
+Log In:
+
+You should see the MVS login screen where you can log in and start working with the mainframe operating system.
+
+By following these steps, you can set up and run your own mainframe operating system emulator on your personal computer. This setup provides a great environment 
+for learning and practicing mainframe skills, including JCL, COBOL, and other mainframe technologies.
