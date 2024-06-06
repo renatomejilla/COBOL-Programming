@@ -1,3 +1,7 @@
+* Author:      Renato D. Mejilla
+* Date:        June 6, 2024
+* Description: A demo of reversing a string.
+      
 IDENTIFICATION DIVISION.
 PROGRAM-ID. ReverseString.
 
@@ -26,3 +30,11 @@ PROCEDURE DIVISION.
     DISPLAY "Reversed string: ", WS-REVERSED-STRING.
     
 STOP RUN.
+
+=====================================================================
+OUTPUT:
+
+Enter a string (up to 50 characters): THE QUICK BROWN FOX JUMP OVER THE LAZY DOG.
+Reversed string:        .GOD YZAL EHT REVO PMUJ XOF NWORB KCIUQ EHT
+
+      
