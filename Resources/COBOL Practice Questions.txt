@@ -1,0 +1,71 @@
+Certainly! Here are 20 COBOL coding practice questions, ranging from basic to advanced levels:
+
+Basic Level
+1. Hello World Program: Write a COBOL program to display "Hello, World!".
+
+2. Simple Addition: Write a COBOL program that accepts two numbers from the user, adds them, and displays the result.
+
+3. String Concatenation: Write a COBOL program to concatenate two strings entered by the user and display the result.
+
+4. Check Even or Odd: Write a COBOL program that checks whether a given number is even or odd.
+
+5. Area of a Circle: Write a COBOL program to calculate the area of a circle given its radius.
+
+6. Temperature Conversion: Write a COBOL program to convert a temperature from Celsius to Fahrenheit.
+
+7. Simple Loop: Write a COBOL program that prints the numbers from 1 to 10 using a PERFORM loop.
+
+8. Reverse String: Write a COBOL program that accepts a string from the user and reverses it.
+
+9. Factorial Calculation: Write a COBOL program to calculate the factorial of a given number.
+
+10. Sum of Array Elements: Write a COBOL program to calculate the sum of elements in an array.
+
+Intermediate Level
+11. File Handling: Write a COBOL program to read from an input file and write the contents to an output file.
+
+12. Bubble Sort: Write a COBOL program to sort an array of integers using the bubble sort algorithm.
+
+13. Employee Payroll: Write a COBOL program to calculate the payroll for employees, including basic pay, allowances, and deductions.
+
+Fibonacci Series: Write a COBOL program to generate the first 10 numbers in the Fibonacci series.
+
+String Search: Write a COBOL program to search for a substring within a string.
+
+Prime Number Check: Write a COBOL program to check whether a given number is prime or not.
+
+Matrix Addition: Write a COBOL program to perform the addition of two matrices.
+
+Student Grades: Write a COBOL program to read student names and their marks, calculate the average, and display the names of students who scored above the average.
+
+Bank Account Management: Write a COBOL program to manage bank accounts, including deposits, withdrawals, and balance inquiries.
+
+Inventory Management: Write a COBOL program to manage an inventory system, including adding new items, updating quantities, and generating reports.
+
+Advanced Level
+Complex File Operations: Write a COBOL program to merge two sorted files into a single sorted file.
+
+Recursion: Write a COBOL program to solve a problem using recursion (e.g., calculating the nth Fibonacci number).
+
+Cobol-DB2 Integration: Write a COBOL program to interact with a DB2 database, performing CRUD (Create, Read, Update, Delete) operations.
+
+XML Processing: Write a COBOL program to read an XML file and extract specific information.
+
+Dynamic Memory Allocation: Write a COBOL program to dynamically allocate and deallocate memory for an array.
+
+Date Calculations: Write a COBOL program to perform various date calculations, such as finding the number of days between two dates.
+
+File Compression: Write a COBOL program to compress and decompress a file using a simple algorithm.
+
+Error Handling: Write a COBOL program to demonstrate advanced error handling and logging mechanisms.
+
+Performance Optimization: Write a COBOL program to read a large file and optimize its performance by using efficient algorithms and data structures.
+
+Multi-Threading: Write a COBOL program to demonstrate multi-threading, if supported by the COBOL compiler you are using.
+
+These questions cover a range of topics and difficulty levels, providing a comprehensive set of exercises to practice and improve your COBOL programming skills.
+
+
+
+
+
