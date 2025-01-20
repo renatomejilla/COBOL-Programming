@@ -2,7 +2,8 @@
       * Description:  This demo is to count the number of characters
       *               from the user input then display the output.
       * Author:       Renato D. Mejilla
-      * Date Written: January 20, 2024                               
+      * Date Written: January 20, 2024
+      * Compiler:     GnuCOBOL    
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. Count-String.
