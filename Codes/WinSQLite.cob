@@ -98,7 +98,6 @@ Compile the COBOL Program:
 Run the COBOL Program:
 
 Execute the compiled program:
-Copy code
 SQLiteDemo
 
 Notes:
