@@ -1,0 +1,15 @@
+1. Instal Mocha TN5250
+
+2. Configure connection
+   change IP address to PUB400.com
+   accept all defaults
+   click apply and connect
+
+3. Enter Username and Password
+   Username: MEJILLARD
+   Password: f867e***
+
+4. Press ENTER
+
+5. You will see the AS400 Menu
+
