@@ -1,9 +1,9 @@
 Here are 30 COBOL coding practice questions, ranging from basic to advanced levels:
 
 Basic Level
-1. Hello World Program: Write a COBOL program to display "Hello, World!".
+1. Done --> Hello World Program: Write a COBOL program to display "Hello, World!".
 
-2. Simple Addition: Write a COBOL program that accepts two numbers from the user, adds them, and displays the result.
+2. Done --> Simple Addition: Write a COBOL program that accepts two numbers from the user, adds them, and displays the result.
 
 3. String Concatenation: Write a COBOL program to concatenate two strings entered by the user and display the result.
 
