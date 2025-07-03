@@ -1,1 +1,94 @@
+AS/400 COBOL Developer Daily Practice Schedule
+
+Phase 1: COBOL Language Fundamentals (2 Weeks)
+==============================================
+Day	Focus	Activities
+1	COBOL Divisions Overview	Understand IDENTIFICATION, ENVIRONMENT, DATA, PROCEDURE
+2	Data Types Basics	Practice PIC X, PIC 9, constants, variables
+3	Arithmetic Operations	Write ADD, SUBTRACT, MULTIPLY, DIVIDE, COMPUTE programs
+4	Conditional Statements	Practice IF, EVALUATE, simple decision programs
+5	Loops and Iteration	Use PERFORM, PERFORM UNTIL, PERFORM VARYING
+6	Arrays and OCCURS	Declare arrays with OCCURS, loop through data
+7	File Handling - Sequential Files	Read/Write text files in COBOL (GnuCOBOL or Visual COBOL)
+8	Indexed Files (Optional GnuCOBOL)	Understand indexed file basics (skip if not supported)
+9	File Programs Practice	Combine reading, writing, and calculations
+10	Review & Mini Exercises	Solve small problems using all learned features
+
+Phase 2: IBM i Basics (1 Week)
+=============================
+Day	Focus	Activities
+11	AS/400 / IBM i Overview	Research IBM i concepts: libraries, objects
+12	Green Screen Basics (PUB400 setup)	Sign up at PUB400.com, access system
+13	Exploring Libraries & Objects	Use WRKLIB, WRKOBJ, understand object types
+14	Source Member Management	Practice WRKMBRPDM, creating, editing source members
+15	Basic Commands & Navigation	Run WRKACTJOB, DSPLIB, explore menus
+16	Review Day & Q&A Practice	Reinforce IBM i basics, note key system commands
+
+Phase 3: IBM ILE COBOL Programming (3 Weeks)
+============================================
+Day	Focus	Activities
+17	Creating COBOL Programs on IBM i	Write first HELLO WORLD COBOL program via green screen
+18	Working-Storage & Data Division	Declare variables, test basic operations
+19	COBOL Logic on IBM i	Write programs with IF, PERFORM, calculations
+20	Compiling and Running Programs	Learn compile commands, resolve errors
+21	Physical File Creation (DDS)	Create simple Physical File using DDS
+22	File Read/Write with COBOL	Read/write physical files with COBOL
+23	Practical File Handling Programs	Solve examples with data storage/retrieval
+24	Array and OCCURS on IBM i	Practice COBOL tables on IBM i
+25	Practical Program Combining Topics	Employee details, payroll, etc.
+26	Debugging COBOL Programs	Explore STRDBG or debug tools
+27	Review & Mini Projects	Build small systems using COBOL & files
+
+Phase 4: CL (Control Language) Programs (1 Week)
+================================================
+Day	Focus	Activities
+28	Introduction to CL Programs	Understand CL commands structure
+29	Writing Simple CL Programs	Automate compile and run of COBOL program
+30	CL with Parameters	Pass parameters to COBOL programs via CL
+31	Review and Practice	Combine CL and COBOL processes
+
+Phase 5: Screen Handling with DSPF (2 Weeks)
+============================================
+Day	Focus	Activities
+32	DDS for Display Files	Learn DDS structure, create simple screen
+33	Creating Display Files (DSPF)	Design input/output screens
+34	COBOL & DSPF Integration	Connect screen to COBOL program
+35	Interactive Screen Programs	Capture and display user input via screen
+36	Multi-Screen Navigation	Handle multiple screens or panels
+37	Review and Practice	Build interactive menu-driven programs
+
+Phase 6: Embedded SQL and DB2/400 (3 Weeks)
+===========================================
+Day	Focus	Activities
+38	SQL Basics for IBM i	Practice SQL: SELECT, INSERT, UPDATE, DELETE
+39	Embedded SQL in COBOL	EXEC SQL basics, simple SELECT queries
+40	Host Variables and Data Mapping	Use COBOL variables in SQL
+41	Reading DB2 Data via COBOL	Fetch records and display in COBOL program
+42	Writing to DB2 via COBOL	Insert and update records
+43	SQL Error Handling	Handle exceptions with SQLCODE checks
+44	Complex SQL Queries Practice	Work with conditions, joins, calculations
+45	Mini Database Application	Build CRUD system with COBOL + DB2
+
+Final Weeks: Mini Projects & Job Preparation
+============================================
+Day	Focus	Activities
+46	End-to-End Employee Management App	Input screens, file/database, reports
+47	Reporting & Calculations Program	Payroll or invoice calculations
+48	Review Full COBOL + CL + DSPF Flow	Ensure full understanding of systems
+49	Debugging, Error Handling Practice	Robust program design
+50	Job Interview Q&A Review	Practice common IBM i COBOL interview questions
+51	System Command Practice	Master frequently used IBM i commands
+52	Final Assessment (Self-Test)	Test all skills learned, identify weak areas
+
+📦 Resources You’ll Need
+✅ PUB400.com account
+✅ IBM i green screen terminal emulator (Mocha TN5250 or similar)
+✅ DDS and CL command references (I can send examples)
+✅ COBOL language reference guides
+
+🎯 Goal:
+Daily 1 to 2 hours practice
+
+Within 2-3 months, you’ll be confident to apply for entry-level to intermediate AS/400 COBOL Developer roles
+
 
